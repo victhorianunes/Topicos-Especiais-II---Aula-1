@@ -12,7 +12,7 @@ let counter = 0;
 let intervalID = setInterval (() =>{
   counter = counter + 1;
   const appParagraph: HTMLElement = document.getElementById('app.counter');
-  appParagraph.innerHTML = counter as string; //as string: converte numero para string
+  appParagraph.innerHTML = counter as string; //as string: converte para string
 }, 1000);
 
 // fim contador 

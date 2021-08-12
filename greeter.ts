@@ -5,6 +5,6 @@ export class Greeter {
   }
 
   getGreeting (){
-  return `Olá, ${this.greeting}`
+    return `Olá, ${this.greeting}`;
 } 
 }
